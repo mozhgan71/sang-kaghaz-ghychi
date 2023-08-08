@@ -1,0 +1,24 @@
+<main>
+    <form>
+        <label>Robot :</label>
+        <label>{{robotScore}}</label>
+        <img id="imagesang" src="assets/images/1.jpg" class="img-selected" hidden="true">
+        <img id="imagekaghaz" src="assets/images/2.jpg" class="img-selected" hidden="true">
+        <img id="imagegheychi" src="assets/images/3.jpg" class="img-selected" hidden="true">
+    </form>
+    <br>
+    <form>
+        <label>Player :</label>
+        <label>{{yourScore}}</label>
+        <img id="image3" src="assets/images/3.jpg" class="img-selected" hidden="true">
+        <img id="image2" src="assets/images/2.jpg" class="img-selected" hidden="true">
+        <img id="image1" src="assets/images/1.jpg" class="img-selected" hidden="true">
+    </form>
+    <div>
+        <button (click)="showImageGheychi();selectRobot();calcScore()"><img src="assets/images/3.jpg"></button>
+        <button (click)="showImageKaghaz();selectRobot();calcScore()"><img src="assets/images/2.jpg"></button>
+        <button (click)="showImageSang();selectRobot();calcScore()"><img src="assets/images/1.jpg"></button>
+    </div>
+    <br>
+    <button (click)="resetGame()" class="reset">Reset Game</button>
+</main>

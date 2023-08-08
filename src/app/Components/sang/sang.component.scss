@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 5);
+    height: 100%;
+    // gap: 2rem;
+
+    .img-selected {
+        margin-left: 5rem;
+        width: 4rem;
+        height: 6rem;
+    }
+
+    form {
+        background-color: rgb(110, 226, 168);
+        display: flex;
+        gap: 2rem;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .reset {
+        padding-top: 0;
+        margin-top: 0;
+        background-color: rgb(8, 71, 66);
+        color: aliceblue;
+        height: 2rem;
+    }
+    // label{
+        
+    // }
+}
